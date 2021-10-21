@@ -1,10 +1,12 @@
 .present__photo {
     width: 100%;
-    height: auto;
+    object-fit: cover;
     align-items: center;
+    margin-bottom: 18px;
 }
 
 .present__group-title {
+    margin-bottom: 18px;
 
 }
 
@@ -14,7 +16,7 @@
     font-size: 34px;
     line-height: 120%;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .present__subtitle {
@@ -23,7 +25,6 @@
     font-size: 16px;
     line-height: 120%;
     text-transform: uppercase;
-    margin-top: 10px;
 }
 
 .present__description {
@@ -31,7 +32,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 140%;
-    margin-top: 18px;
+    margin-bottom: 20px;
 }
 
 .present__order-btn {
@@ -43,7 +44,6 @@
     line-height: 140%;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 19px;
 }
 
 @media (min-width: 768px) {
@@ -51,8 +51,8 @@
         margin-left: 40px;
         margin-right: 27px;
         margin-top: 20px;
-        width: 370px;
-        height: 557px;
+        width:100%;
+        object-fit: cover;
     }
     .present__content {
         width: 290px;
