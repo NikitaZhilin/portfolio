@@ -1,7 +1,6 @@
 .present__photo {
     width: 100%;
     object-fit: cover;
-    align-items: center;
     margin-bottom: 18px;
 }
 
@@ -41,7 +40,7 @@
     color: #ffffff;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .present__photo {
         margin-left: 40px;
         margin-right: 27px;
@@ -96,4 +95,4 @@
         margin-top: 60px;
     }
     
-}
+}*/

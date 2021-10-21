@@ -122,10 +122,6 @@
 
 @media (min-width: 992px) {
     .header {
-        position: fixed;
-        left: 0;
-        top: 0;
-        height: 100%;
         padding: 50px 0;
     }
 
@@ -136,18 +132,20 @@
 
     .header__contacts {
         position: static;
+        display: block;
+        padding: 0;
     }
 
     .contacts__list {
         flex-direction: column;
     }
 
-    .header__contacts-burger {
-        display: none;
-    }
-
     .contacts__item:not(:last-child) {
         margin-bottom: 50px;
+    }
+
+    .header__contacts-burger {
+        display: none;
     }
 }
 
