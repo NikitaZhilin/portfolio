@@ -1,0 +1,99 @@
+.present__photo {
+    width: 290px;
+    height: 437px;
+}
+
+.present_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.present__subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.present__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 18px;
+}
+
+.present__order-btn {
+    width: 189px;
+    height: 52px;
+    background-color: #E87C40;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 19px;
+}
+
+@media (min-width: 768px) {
+    .present__photo {
+        margin-left: 40px;
+        margin-right: 27px;
+        margin-top: 20px;
+        width: 370px;
+        height: 557px;
+    }
+    .present__content {
+        width: 290px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        padding: 50px 0;
+    }
+    .present_title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #110303;
+        margin-top: 149px;
+    }
+    
+    .present__subtitle {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-top: 24px;
+    }
+    
+    .present__description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 40px;
+    }
+
+    .present__order-btn {
+        width: 252px;
+        height: 73px;
+        background-color: #E87C40;
+        border-radius: 4px;
+        font-size: 18px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 60px;
+    }
+    
+}
