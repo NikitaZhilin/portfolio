@@ -1,6 +1,11 @@
 .present__photo {
-    width: 290px;
-    height: 437px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.present__group-title {
+
 }
 
 .present_title {
