@@ -82,3 +82,47 @@
 }
 
 
+@media (min-width: 480px) {
+    .portfolio__slider {
+        max-width: 340px;
+    }
+    .portfolio__title {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .portfolio__slider {
+        max-width: 688px;
+    }
+}
+
+@media (min-width: 992px) {
+    .portfolio__slider {
+        max-width: 690px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .portfolio__slider {
+        max-width: 825px;
+    }
+    .portfolio__title {
+        font-size: 50px;
+    }
+    .card__data {
+        font-size: 16px;
+    }
+    .card__title {
+        font-size: 18px;
+    }
+    .card {
+        max-width: 366px;
+    }
+    .card__picture {
+        width: 213px;
+        height: 126px;
+        padding: 3px 25px 13px;
+    
+
+}

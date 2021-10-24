@@ -6,14 +6,14 @@ new Swiper('.swiper', {
     },
     breakpoints: {
         480: {
-            gird: {
+            grid: {
                 fill: 'row',
                 rows: 2
             }
         },
         768: {
             slidesPerView: 2,
-            gird: {
+            grid: {
                 fill: 'row',
                 rows: 2
             }
