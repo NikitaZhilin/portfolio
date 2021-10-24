@@ -3,23 +3,80 @@
     font-size: 30px;
     line-height: 120%;
     text-transform: uppercase;
-    color: #110303;
+    margin-bottom: 40px;
 }
+
+.card {
+    box-sizing: border-box;
+    max-width: 252px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 14px;
+}
+
+.card__picture {
+    width: 155px;
+    height: 92px;
+    padding: 2.5px 17.5px 11.5px;
+    background-image: url("../img/macbook.svg");
+    background-size: cover;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.card__data {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 23px;
+}
+
 .card__client {
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
-    color: #110303;
 }
-.card__date {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 140%;
-    color: #110303;
-}
+
 .card__title {
     font-weight: 600;
     font-size: 16px;
     line-height: 120%;
-    color: #110303;
+}
+
+.portfolio__slider {
+    position: relative;
+    max-width: 290px;
+    margin: 0 auto;
+}
+
+.portfolio__arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 26px;
+    height: 26px;
+    background-image: url("../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 5;
+}
+
+.portfolio__arrow_left {
+    left: 0;
+}
+
+.portfolio__arrow_right {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+
+.portfolio__arrow_disable {
+    opacity: 0.3;
+    pointer-events: none;
 }

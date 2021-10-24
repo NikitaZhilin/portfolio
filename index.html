@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио Жилина Никиты. Фотограф-junior_frontend</title>
     <link rel="stylesheet" href="style/index.css">
+    <script defer src="js/swiper-bundle.min.js" ></script>
+    <script defer src="js/index.js" ></script>
 </head>
+
 <body class="page">
     <header class="page__header header">
         <div class="container header__container">
@@ -77,12 +80,9 @@
         <section  class="portfolio">
             <div class="container">
                 <h2 class="portfolio__title">Портфолио</h2>
-
-                <div class="portfolio__slider">
-
-                    <ui class="portfolio__list">
-
-                        <li class="portfolio__item">
+                <div class="portfolio__slider swiper">
+                    <ui class="portfolio__list swiper-wrapper">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/cinema.jpg" alt="">
                                 <p class="card__data">
@@ -93,7 +93,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/iphone.jpg" alt="">
                                 <p class="card__data">
@@ -104,7 +104,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/go.jpg" alt="">
                                 <p class="card__data">
@@ -115,7 +115,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/friendly_house.jpg" alt="">
                                 <p class="card__data">
@@ -126,7 +126,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/dom.jpg" alt="">
                                 <p class="card__data">
@@ -138,14 +138,11 @@
                         </li>
 
                     </ui>
-
+                    <button class="portfolio__arrow portfolio__arrow_left"></button>
+                    <button class="portfolio__arrow portfolio__arrow_right"></button>
                 </div>
-
             </div>
         </section>
     </main>
-
-
-
 </body>
 </html>
