@@ -1,10 +1,17 @@
 .modal {
+    position: relative;
     background-color: #fff;
     border: 1px solid #646464;
     border-radius: 14px;
     margin: auto;
     min-width:  290px;
     padding: 40px 10px;
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 .modal__title {
