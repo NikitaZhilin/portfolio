@@ -3,6 +3,7 @@
     border: 1px solid #646464;
     border-radius: 14px;
     margin: auto;
+    min-width:  290px;
     padding: 40px 10px;
 }
 
@@ -33,6 +34,10 @@
     color: #303030;
 }
 
+.connect__radio {
+    margin-right: 15px;
+}
+
 .callback__input {
     border: 1px solid #AFAFAF;
     border-radius: 6px;
@@ -45,4 +50,31 @@
 
 
 
+.callback__group:not(:last-child) {
+    margin-bottom: 40px;
+}
 
+.connect__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.connect__label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.callback__btn {
+    padding: 16px 60px;
+    background-color: #E87C40;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
