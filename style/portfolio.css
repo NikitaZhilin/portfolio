@@ -1,0 +1,25 @@
+.portfolio__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #110303;
+}
+.card__client {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #110303;
+}
+.card__date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #110303;
+}
+.card__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #110303;
+}
