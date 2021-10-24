@@ -81,9 +81,19 @@ section {
 }
 
 @media (min-width: 1440px) {
+    .page {
+        background-image: linear-gradient(to right, #A1B7C8 24.5%, transparent 24.5%);
+    }
     .page__header {
         width: 355px;
-        top: 0;
+        left: calc(50% - 720px);
     }
 }
 
+
+
+@media (min-width: 2700px) {
+    .page {
+        background-image: linear-gradient(to right, #A1B7C8 30%, transparent 30%);
+    }
+}
